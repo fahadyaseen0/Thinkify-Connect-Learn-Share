@@ -5,16 +5,14 @@ Thinkify is a vibrant space where people from diverse backgrounds and interests 
 # Preview
 
 <img src="/preview.png">
-<a href="https://thinkify.vercel.app" target="_blank">Live Preview</a> | <a href="https://thinkify-server.vercel.app" target="_blank">Live API</a> | <a href="https://documenter.getpostman.com/view/27027258/2sA3dxEXJh" target="_blank">Postman</a>
+<a href="https://thinkify.vercel.app" target="_blank">
 
-# Requirements
 
-[Install Node On Your Device](https://nodejs.org/)
 
 # How to Run
 
 ```
-git clone https://github.com/masum184e/thinkify.git
+
 
 # BACKEND
 cd server
@@ -32,7 +30,7 @@ npm run dev
 ## Frontend
 
 ```
-VITE_SERVER_ENDPOINT = https://thinkify-server.vercel.app:3000/api
+VITE_SERVER_ENDPOINT 
 VITE_TOKEN_KEY = thinkify
 VITE_USER_ROLE = role
 VITE_COOKIE_EXPIRES = 1
@@ -42,7 +40,7 @@ VITE_COOKIE_EXPIRES = 1
 
 ```
 PORT = 3000
-DATABASE_URL = mongodb://localhost:27017/
+DATABASE_URL = mongodb:/
 DATABASE_NAME = thinkify
 BCRYPT_GEN_SALT_NUMBER = 10
 JWT_SECRET_KEY = abcdefghijklmnopqrstuvwxyz
